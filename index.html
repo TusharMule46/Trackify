@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban</title>
+    <link rel="stylesheet" href="kanban.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="Nav">
+                <h4>KANBAN</h4>
+                <button class="btn btn-task">Add New Task</button>
+            </div>
+        </nav>
+        <section class="board">
+            <div id="to-do" class="task-section  " >
+                  <!-- TO DO column -->
+                <div class="heading">
+                    <div class="left">To Do</div>
+                    <div class="right">count</div>
+                </div>
+            </div>
+
+            <!-- IN progress column -->
+            <div id="inprogress" class="task-section">
+                <div class="heading">
+                    <div class="left">Inprogress</div>
+                    <div class="right">count</div>  </div>
+            </div>
+             <!-- done column -->
+            <div id="done" class="task-section">
+                <div class="heading">
+                    <div class="left">Done</div>
+                    <div class="right">count</div> </div>
+            </div>
+
+        </section>
+        <!-- add new task box -->
+
+        <div class="modal">
+            <div class="task-container">
+                <input type="text" placeholder="Task Title" />
+                <textarea placeholder="Task Description"></textarea>
+                <button>Add Task</button>
+            </div>
+
+        </div>
+        </div>
+
+    </main>
+</body>
+<script src="kanban.js"></script>
+
+</html>
